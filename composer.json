@@ -1,0 +1,6 @@
+{
+  "require": {
+    "php": "^7.0",
+    "doctrine/annotations": "^1.2"
+  }
+}
