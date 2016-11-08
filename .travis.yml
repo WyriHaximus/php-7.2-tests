@@ -17,4 +17,4 @@ install:
   - composer show
 
 ## Run the actual test and benchmark
-script: test.php
+script: php test.php
