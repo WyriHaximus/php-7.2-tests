@@ -1,0 +1,20 @@
+language: php
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache ## Cache composer bits
+
+## PHP versions we test against
+php:
+  - 7.0
+  - 7.1
+  - nightly
+
+## Install or update dependencies
+install:
+  - composer install
+  - composer show
+
+## Run the actual test and benchmark
+script: test.php
