@@ -11,4 +11,5 @@ class A
 
 $a = new A();
 
-var_export((new ReflectionClass($a))->getDocComment());
+var_export(get_class($a));
+var_export(get_class(null));
